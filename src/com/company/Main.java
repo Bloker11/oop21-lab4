@@ -25,12 +25,12 @@ public class Main {
         var application2 = new Application(OS.Android,"AndroidPhone","1.9.2","Melon Dusk",20.0);
         var application3 = new Application(OS.iOS,"Iphone 255","2.8.0","Przemek Tytoń",200.0);
         var application4 = new Application(OS.Android,"NotIphone2","1.9.1","Elon Musk",100.0);
-        var application5 = new Application(OS.Android,"NotIphone","1.9.0","Elon Musk",200.0);
-        var application6 = new Application(OS.Android,"NotIphone","1.9.0","Elon Musk",200.0);
-        var application7 = new Application(OS.Android,"NotIphone","1.9.0","Elon Musk",200.0);
-        var application8 = new Application(OS.Android,"NotIphone","1.9.0","Elon Musk",200.0);
-        var application9 = new Application(OS.Android,"NotIphone","1.9.0","Elon Musk",200.0);
-        var application10 = new Application(OS.Android,"NotIphone","1.9.0","Elon Musk",200.0);
+        var application5 = new Application(OS.Android,"NotIphone3","1.8.1","Elon Musk",200.0);
+        var application6 = new Application(OS.Android,"PhoneAndroid","2.0.0","Gargamel Ochociński",200.0);
+        var application7 = new Application(OS.iOS,"Iphone 55","1.9.0","Someone",2000.0);
+        var application8 = new Application(OS.iOS,"Iphone Rip-off","2.9.0","Someone Else",200.0);
+        var application9 = new Application(OS.iOS,"Iphone 100","1.7.0","Someone Else",50.0);
+        var application10 = new Application(OS.iOS,"Iphone 200","1.8.0","Someone Else",200.0);
 
         var application11 = new BrandApplication(OS.Android,"NotIphone","1.9.0","Elon Musk",200.0,Brands.Xiaomi);
         var application12 = new BrandApplication(OS.Android,"NotIphone","1.9.0","Elon Musk",200.0,Brands.Motorola);
