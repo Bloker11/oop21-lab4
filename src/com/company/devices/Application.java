@@ -6,18 +6,25 @@ public class Application {
     public String Version;
     public String Author;
     public double Price;
+    public boolean Paid;
 
-    public Application(OS supportedOS, String name, String version, String author, double price) {
+    public Application(OS supportedOS, String name, String version, String author, double price,boolean paid) {
         SupportedOS = supportedOS;
         Name = name;
         Version = version;
         Author = author;
         Price = price;
-    }
-
-    public boolean paid(){
-        if(Price>0)
-            return true;
-        return false;
+        Paid = paid;
     }
 }
+
+
+   /* public boolean paid(){
+        if(Price>0) {
+            System.out.println("application is paid");
+            return true;
+        }
+        System.out.println("application is not paid");
+        return false;
+    }
+}*/
